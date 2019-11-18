@@ -10,7 +10,7 @@
     "cli": "env NODE_ENV=${NODE_ENV:-cli}",
     "compile": "babel src --out-dir=dist",
     "cover": "NODE_ENV=${NODE_ENV:-test} jest --coverage",
-    "doc": " echo \"# API\" > API.md; jsdoc2md 'src/**/*.js' test/*.js >> API.md",
+    "doc": " echo \"# API\" > API.md; jsdoc2md 'src/**/*.js' >> API.md",
     "jest": "NODE_ENV=${NODE_ENV:-test} jest",
     "lint": "eslint 'src/**/*.js'",
     "metapak": "metapak",
@@ -25,6 +25,7 @@
       "tests",
       "readme",
       "jsarch",
+      "jsdocs",
       "oss",
       "eslint"
     ],
@@ -77,7 +78,7 @@
     "husky": "^3.0.5",
     "jest": "^24.9.0",
     "jsarch": "^2.0.3",
-    "jsdoc-to-markdown": "^4.0.1",
+    "jsdoc-to-markdown": "^5.0.0",
     "lint-staged": "^9.2.5",
     "metapak": "^3.1.6",
     "metapak-sencrop": "7.5.0",
@@ -139,7 +140,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS && npm run doc && git add API.md",
       "pre-commit": "npm t && npm run architecture && (git add ARCHITECTURE.md || exit 1) && lint-staged && npm run --silent checkStaged"
     }
   },
