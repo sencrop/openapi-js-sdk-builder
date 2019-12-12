@@ -1,5 +1,5 @@
 {
-  "name": "openapi-js-sdk-builder",
+  "name": "@sencrop/openapi-js-sdk-builder",
   "version": "1.1.1",
   "description": "Create a JavaScript SDK from an OpenAPI 3 definition",
   "main": "dist/index.js",
@@ -176,6 +176,7 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
       [
         "@semantic-release/git",
         {

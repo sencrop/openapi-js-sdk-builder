@@ -5,7 +5,7 @@
 -->
 
 
-# openapi-js-sdk-builder
+# @sencrop/openapi-js-sdk-builder
 > Create a JavaScript SDK from an OpenAPI 3 definition
 
 
@@ -71,4 +71,4 @@ await API.getPing();
 - [Changelog](./CHANGELOG.md)
 
 # License
-[MIT](https://github.com/sencrop/openapi-js-sdk-builder/blob/master/LICENSE.md)
+[MIT](https://github.com/sencrop/@sencrop/openapi-js-sdk-builder/blob/master/LICENSE.md)
