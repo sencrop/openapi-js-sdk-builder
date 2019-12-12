@@ -172,7 +172,7 @@
   },
   "release": {
     "branch": "master",
-    "repositoryUrl": "git@github.com:sencrop/sencrop-js-api-client.git",
+    "repositoryUrl": "git@github.com:sencrop/openapi-js-sdk-builder.git",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
