@@ -1,3 +1,14 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.2...v1.1.3) (2019-12-12)
+
+
+### Bug Fixes
+
+* **build:** trigger build for new npm version ([832b319](https://github.com/sencrop/openapi-js-sdk-builder/commit/832b319))
+* **build:** trigger build for new npm version ([ed7e650](https://github.com/sencrop/openapi-js-sdk-builder/commit/ed7e650))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.1...v1.1.2) (2019-12-12)
 
