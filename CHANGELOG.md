@@ -1,3 +1,13 @@
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.4...v1.1.5) (2019-12-12)
+
+
+### Bug Fixes
+
+* **build:** remove preversion ([04f1b19](https://github.com/sencrop/openapi-js-sdk-builder/commit/04f1b19))
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.3...v1.1.4) (2019-12-12)
 

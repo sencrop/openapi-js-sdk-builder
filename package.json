@@ -1,6 +1,6 @@
 {
   "name": "@sencrop/openapi-js-sdk-builder",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Create a JavaScript SDK from an OpenAPI 3 definition",
   "main": "dist/index.js",
   "scripts": {
