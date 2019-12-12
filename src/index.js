@@ -23,7 +23,6 @@ import {
 
 export default function(source) {
   const callback = this.async();
-
   generateSDKFromOpenAPI(source)
     .then(data => callback(null, data))
     .catch(callback);
