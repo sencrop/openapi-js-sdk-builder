@@ -1,3 +1,7 @@
+## [1.1.6](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.5...v1.1.6) (2021-01-07)
+
+
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.4...v1.1.5) (2019-12-12)
 
