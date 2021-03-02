@@ -1,3 +1,12 @@
+## [1.1.7](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.6...v1.1.7) (2021-03-02)
+
+
+### Bug Fixes
+
+* **deps:** bump deps and nodejs ([95c8b53](https://github.com/sencrop/openapi-js-sdk-builder/commit/95c8b53f8f9e7fd6639eefa8ad4472a5394d9349))
+
+
+
 ## [1.1.6](https://github.com/sencrop/openapi-js-sdk-builder/compare/v1.1.5...v1.1.6) (2021-01-07)
 
 
