@@ -13,10 +13,10 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@v1
 
-      - name: Use Node.js v10.x
+      - name: Use Node.js v14.x
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: '14.x'
 
       # Skip post-install scripts here, as a malicious
       # script could steal NODE_AUTH_TOKEN.
